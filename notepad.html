@@ -1,0 +1,104 @@
+<section class="homebg" id="home"> 
+    <div class="container">
+        <nav>
+            <h1>BSCS - 1A</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About us</a></li>       
+                <li><a href="#skills">SKILLS</a></li>       
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#members">Members</a></li>    
+                <li><a href="#contact">Contact</a></li>   
+            </ul>
+        </nav>
+        <div class="article">
+            <h1>GROUP 3 PORTFOLIO</h1>
+            <p>Group 3 is an exceptional team 
+                characterized by their 
+                innovative thinking, strong collaborative skills, and 
+                unwavering dedication to achieving excellence in every 
+                task they undertake, making them a standout group in any endeavor.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+.homebg{
+    min-height: 100vh;
+   background:#fff;
+    opacity:    0.7;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    width:100%;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+}
+
+nav h1{
+    float:left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#D9EAFD;
+}
+
+nav ul{
+ float:right;
+ line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px ;
+}
+
+nav ul li a{
+    color:#D9EAFD;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color:#D9EAFD;
+    line-height:1.5;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
